@@ -62,5 +62,6 @@ for x in predict_x_values:
 plt.scatter(x_values, y_values) # plot the data
 plt.scatter(predict_x_values, predict_y_values, color='g') # plot our predictions
 plt.plot(x_values, regression_line) # plot the regression line
+plt.savefig('plots/linear_regression.png')
 plt.show()
 

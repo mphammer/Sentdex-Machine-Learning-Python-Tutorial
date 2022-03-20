@@ -53,6 +53,7 @@ for cluster_color in dataset:
 new_feature = [5,7]
 plt.scatter(new_feature[0], new_feature[1], s=50, color="green")
 
+plt.savefig('plots/k_nearest_neighbors.png')
 plt.show()
 
 def k_nearest_neighbors(dataset, predict_data_point, k=3):

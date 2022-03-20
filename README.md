@@ -35,9 +35,16 @@ Popular Tools Used
 
 This course is not good for learning theory but it's great for starting to get your hands dirty with code. 
 
-The lessons are easy to follow and very cool since you use real datasets.  
+The coding lessons are easy to follow and very cool since you use real datasets and write algorithms from scratch.  
+The math and theory is harder to follow for a new person but a great refresher if you're not.   
 
-Before taking this course I think it would be useful for someone to know the very basic ideas behind the ML algorithms covered and to understand the basic of Machine Learning (ex: you need training and test datasets; what a model is; etc.). The instructor also indicates that the user should know some basics of numpy and pandas, and I agree with that.  
+Before taking this course I think it would be useful to know the following: 
+- **Math** if you want to follow along with the Theory (Again, I don't think this is the best place to learn theory)
+- The very basic ideas behind ML algorithms that are covered
+- The very basics of actually doing Machine Learning (ex: you need training and test datasets; what a model is; etc.)
+- Basics of numpy and pandas
+
+The instructor covers a lot of this but I think it would be helpful to have more context going in.
 
 ## Introduction
 
@@ -49,7 +56,7 @@ $ pip install -r requirements.txt
 
 ## Linear Regression
 
-Lessons
+### Lessons: 
 * [Lessons 1 and 2](1_2_Regression_IntroAndData.py)
 * [Lesson 3](3_Regression_Features_and_Labels.py)
 * [Lesson 4](4_Regression_Training_and_Testing.py)
@@ -59,22 +66,39 @@ Lessons
 * [Lessons 10 and 11](10_11_Regression_R_Squared_Error.py)
 * [Lesson 12](12_Creating_Sample_Data_For_Testing.py)
 
+### Linear Regression Graph
+<img src="plots/linear_regression.png" width="300px"/>
 
 ## K Nearest Neighbors
 
-Lessons 
+### Lessons: 
 * [Lessons 13 and 14](13_14_Classification_K_Nearest_Neighbors.py)
 * [Lessons 15, 16, and 17](15_16_17_Classification_KNearest_Neighbors_Euclidean_Distance.py)
 * [Lessons 18 and 19](18_19_Testing_Our_K_Nearest_Neighbors.py)
 
+### K Nearest Neighbors Graph
+<img src="plots/k_nearest_neighbors.png" width="300px"/>
+
 ## Support Vector Machines
 
-Lessons
-* [Lesson 20](20_Support_Vector_Machines.py)
+### Lessons: 
+* [Lesson 20, 21, 22, 23, and 24](20_21_22_23_24_Support_Vector_Machine_Intro.py)
+* [Lesson 25, 26, 27, and 28](25_26_27_28_SVM_From_Scratch.py)
 
+<img src="plots/support_vector_machine.png" width="300px"/>
 
+## K Means
 
+### Lessons: 
+* TODO
 
+<img src="plots/k_means.png" width="300px"/>
 
+## Mean Shift
+
+### Lessons: 
+* TODO
+
+<img src="plots/mean_shift.png" width="300px"/>
 
 

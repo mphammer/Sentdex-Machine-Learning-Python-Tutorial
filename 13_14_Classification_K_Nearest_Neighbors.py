@@ -28,7 +28,7 @@ print("")
 # Clean the data
 df.replace('?', -99999, inplace=True) # most algorithms recognize that -99999 is an outlier and will treat it as such
 
-# Create Feature Set and Labels Set
+# Create Feature Data Set and Labels Vector
 X = np.array(df.drop(['class'], axis=1))
 y = np.array(df['class'])
 
