@@ -33,7 +33,7 @@ Popular Tools Used
 
 ## My Review 
 
-This course is not good for learning theory but it's great for starting to get your hands dirty with code. 
+This course is not good for learning theory but it's great for starting to get your hands dirty with code (numpy, pandas, scikitlearn). Also, I will not suggest it for learning Tensor Flow because the instructor uses an older version. 
 
 The coding lessons are easy to follow and very cool since you use real datasets and write algorithms from scratch.  
 The math and theory is harder to follow for a new person but a great refresher if you're not.   
@@ -84,21 +84,32 @@ $ pip install -r requirements.txt
 ### Lessons: 
 * [Lesson 20, 21, 22, 23, and 24](20_21_22_23_24_Support_Vector_Machine_Intro.py)
 * [Lesson 25, 26, 27, and 28](25_26_27_28_SVM_From_Scratch.py)
+* [Lessons 29, 30, 31, 32, 33](29_30_31_32_33_SVM_kernels.py)
 
 <img src="plots/support_vector_machine.png" width="300px"/>
 
 ## K Means
 
 ### Lessons: 
-* TODO
+* [Lesson 34](34_Clustering_K_Means_Intro.py)
+* [Lessons 35 and 36](35_36_K_Means_Titanic.py)
+* [Lessons 37 and 38](37_38_K_Means_From_Scratch.py)
 
 <img src="plots/k_means.png" width="300px"/>
 
 ## Mean Shift
 
 ### Lessons: 
-* TODO
+* [Lessons 39 and 40](39_40_Mean_Shift_Intro.py)
+* [Lesson 41](41_Mean_Shift_From_Scratch.py)
+* [Lesson 42](42_Mean_Shift_With_Weight.py)
 
 <img src="plots/mean_shift.png" width="300px"/>
 
+## Neural Networks
 
+I stopped following along with the course at this point because the TensorFlow version was old. It was more difficult to follow along with the lessons. However, the videos and explanations on the website were still useful to read. 
+
+### Lessons: 
+* [Lesson 43 and 44](43_44_Neural_Networks_With_TensorFlow.py)
+* [Lesson 45 and 46](45_46_Deep_Learning.py) <- Stopped here
